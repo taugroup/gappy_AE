@@ -1,0 +1,330 @@
+2025-09-10 16:23:34.402 | INFO     | __main__:hyperparameter_search:20 - Experiment 1/10
+2025-09-10 16:23:34.402 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 16, 'width': 256, 'depth': 5, 'lr': 0.0001, 'kl_lambda': 1e-06}
+2025-09-10 16:23:36.416 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.616700  val 0.573537  best 0.573537
+2025-09-10 16:23:40.885 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.554106  val 0.536136  best 0.536136
+2025-09-10 16:23:46.469 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.492380  val 0.493280  best 0.490436
+2025-09-10 16:23:52.048 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.411784  val 0.414777  best 0.414534
+2025-09-10 16:23:57.611 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.400339  val 0.404800  best 0.404800
+2025-09-10 16:24:03.192 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.337355  val 0.337445  best 0.337445
+2025-09-10 16:24:08.771 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.329381  val 0.332507  best 0.330451
+2025-09-10 16:24:14.337 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.326726  val 0.330500  best 0.322512
+2025-09-10 16:24:19.898 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.327338  val 0.322754  best 0.309088
+2025-09-10 16:24:25.464 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.327101  val 0.327272  best 0.309088
+2025-09-10 16:24:31.033 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.275004  val 0.267452  best 0.267452
+2025-09-10 16:24:31.033 | INFO     | main:train_gappy_vae:301 - Wall-clock: 55.94s
+2025-09-10 16:24:31.037 | INFO     | main:demo_once:322 - Demo — MSE: 3.118555e-01 ; PSNR: 5.06 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:24:31.221 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:24:31.222 | INFO     | __main__:hyperparameter_search:20 - Experiment 2/10
+2025-09-10 16:24:31.222 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 512, 'depth': 3, 'lr': 0.0001, 'kl_lambda': 1e-06}
+2025-09-10 16:24:32.311 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.603811  val 0.576804  best 0.576804
+2025-09-10 16:24:36.592 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.571223  val 0.571629  best 0.570844
+2025-09-10 16:24:41.937 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.520494  val 0.496895  best 0.496895
+2025-09-10 16:24:47.304 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.452659  val 0.423436  best 0.423436
+2025-09-10 16:24:52.652 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.334681  val 0.336456  best 0.336456
+2025-09-10 16:24:58.001 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.263856  val 0.264480  best 0.264480
+2025-09-10 16:25:03.379 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.255594  val 0.262459  best 0.254843
+2025-09-10 16:25:08.722 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.120587  val 0.100883  best 0.100883
+2025-09-10 16:25:14.072 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.088925  val 0.086181  best 0.086181
+2025-09-10 16:25:19.402 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.085388  val 0.086436  best 0.084275
+2025-09-10 16:25:24.740 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.084268  val 0.082595  best 0.082595
+2025-09-10 16:25:24.740 | INFO     | main:train_gappy_vae:301 - Wall-clock: 53.51s
+2025-09-10 16:25:24.754 | INFO     | main:demo_once:322 - Demo — MSE: 3.227475e-02 ; PSNR: 14.91 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:25:24.925 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:25:24.925 | INFO     | __main__:hyperparameter_search:20 - Experiment 3/10
+2025-09-10 16:25:24.925 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 256, 'depth': 5, 'lr': 0.0001, 'kl_lambda': 1e-06}
+2025-09-10 16:25:26.051 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.611355  val 0.572581  best 0.572581
+2025-09-10 16:25:30.506 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.568541  val 0.563470  best 0.563470
+2025-09-10 16:25:36.079 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.492507  val 0.489671  best 0.489671
+2025-09-10 16:25:41.657 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.414678  val 0.410397  best 0.410397
+2025-09-10 16:25:47.227 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.410806  val 0.404300  best 0.403436
+2025-09-10 16:25:52.789 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.382037  val 0.370424  best 0.370424
+2025-09-10 16:25:58.366 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.332075  val 0.336449  best 0.330850
+2025-09-10 16:26:04.008 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.330951  val 0.331251  best 0.317086
+2025-09-10 16:26:09.726 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.318476  val 0.308607  best 0.308607
+2025-09-10 16:26:15.452 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.217940  val 0.204623  best 0.204623
+2025-09-10 16:26:21.088 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.159775  val 0.156886  best 0.156886
+2025-09-10 16:26:21.088 | INFO     | main:train_gappy_vae:301 - Wall-clock: 56.16s
+2025-09-10 16:26:21.089 | INFO     | main:demo_once:322 - Demo — MSE: 3.546062e-02 ; PSNR: 14.50 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:26:21.260 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:26:21.261 | INFO     | __main__:hyperparameter_search:20 - Experiment 4/10
+2025-09-10 16:26:21.261 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 16, 'width': 256, 'depth': 5, 'lr': 0.0001, 'kl_lambda': 0.0001}
+2025-09-10 16:26:22.385 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.616771  val 0.573548  best 0.573548
+2025-09-10 16:26:26.864 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.569531  val 0.570099  best 0.568187
+2025-09-10 16:26:32.456 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.570844  val 0.571122  best 0.566978
+2025-09-10 16:26:38.055 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.568420  val 0.569344  best 0.564399
+2025-09-10 16:26:43.659 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.569462  val 0.567058  best 0.564399
+2025-09-10 16:26:49.267 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.570910  val 0.566331  best 0.564399
+2025-09-10 16:26:54.861 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.570638  val 0.565991  best 0.564399
+2025-09-10 16:27:00.457 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.514459  val 0.515592  best 0.515592
+2025-09-10 16:27:06.066 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.496003  val 0.487340  best 0.487340
+2025-09-10 16:27:11.665 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.475672  val 0.473868  best 0.472282
+2025-09-10 16:27:17.278 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.445323  val 0.438166  best 0.438166
+2025-09-10 16:27:17.278 | INFO     | main:train_gappy_vae:301 - Wall-clock: 56.01s
+2025-09-10 16:27:17.279 | INFO     | main:demo_once:322 - Demo — MSE: 3.994753e-01 ; PSNR: 3.99 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:27:17.457 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:27:17.457 | INFO     | __main__:hyperparameter_search:20 - Experiment 5/10
+2025-09-10 16:27:17.457 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 32, 'width': 512, 'depth': 5, 'lr': 0.0001, 'kl_lambda': 0.0001}
+2025-09-10 16:27:18.606 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.576999  val 0.570427  best 0.570427
+2025-09-10 16:27:23.077 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.569275  val 0.569947  best 0.567809
+2025-09-10 16:27:28.716 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.570772  val 0.571043  best 0.566875
+2025-09-10 16:27:34.308 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.568377  val 0.569307  best 0.564344
+2025-09-10 16:27:39.903 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.569442  val 0.567044  best 0.564344
+2025-09-10 16:27:45.488 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.570896  val 0.566295  best 0.564344
+2025-09-10 16:27:51.105 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.570670  val 0.566134  best 0.564344
+2025-09-10 16:27:56.708 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.569213  val 0.572295  best 0.564344
+2025-09-10 16:28:02.322 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.572318  val 0.571542  best 0.560488
+2025-09-10 16:28:07.938 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.568762  val 0.574600  best 0.560488
+2025-09-10 16:28:13.561 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.569823  val 0.565086  best 0.560488
+2025-09-10 16:28:13.562 | INFO     | main:train_gappy_vae:301 - Wall-clock: 56.09s
+2025-09-10 16:28:13.563 | INFO     | main:demo_once:322 - Demo — MSE: 4.814245e-01 ; PSNR: 3.17 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:28:13.733 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:28:13.733 | INFO     | __main__:hyperparameter_search:20 - Experiment 6/10
+2025-09-10 16:28:13.734 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 16, 'width': 256, 'depth': 5, 'lr': 0.0001, 'kl_lambda': 1e-06}
+2025-09-10 16:28:14.853 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.616700  val 0.573537  best 0.573537
+2025-09-10 16:28:19.324 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.554106  val 0.536136  best 0.536136
+2025-09-10 16:28:24.912 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.492380  val 0.493280  best 0.490436
+2025-09-10 16:28:30.515 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.411784  val 0.414777  best 0.414534
+2025-09-10 16:28:36.108 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.400339  val 0.404800  best 0.404800
+2025-09-10 16:28:41.702 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.337355  val 0.337445  best 0.337445
+2025-09-10 16:28:47.309 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.329381  val 0.332507  best 0.330451
+2025-09-10 16:28:52.922 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.326726  val 0.330500  best 0.322512
+2025-09-10 16:28:58.515 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.327338  val 0.322754  best 0.309088
+2025-09-10 16:29:04.122 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.327101  val 0.327272  best 0.309088
+2025-09-10 16:29:09.721 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.275004  val 0.267452  best 0.267452
+2025-09-10 16:29:09.721 | INFO     | main:train_gappy_vae:301 - Wall-clock: 55.98s
+2025-09-10 16:29:09.722 | INFO     | main:demo_once:322 - Demo — MSE: 3.118555e-01 ; PSNR: 5.06 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:29:09.893 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:29:09.893 | INFO     | __main__:hyperparameter_search:20 - Experiment 7/10
+2025-09-10 16:29:09.893 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 32, 'width': 512, 'depth': 4, 'lr': 0.001, 'kl_lambda': 1e-06}
+2025-09-10 16:29:11.003 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.571016  val 0.569753  best 0.569753
+2025-09-10 16:29:15.374 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.414031  val 0.408308  best 0.408308
+2025-09-10 16:29:20.849 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.088200  val 0.084609  best 0.084609
+2025-09-10 16:29:26.347 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.079962  val 0.080819  best 0.080593
+2025-09-10 16:29:31.830 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.078416  val 0.078130  best 0.078130
+2025-09-10 16:29:37.313 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.078284  val 0.077880  best 0.077880
+2025-09-10 16:29:42.786 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.077602  val 0.076663  best 0.075789
+2025-09-10 16:29:48.255 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.075941  val 0.077650  best 0.075789
+2025-09-10 16:29:53.721 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.076943  val 0.074743  best 0.074743
+2025-09-10 16:29:59.201 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.076485  val 0.077041  best 0.074490
+2025-09-10 16:30:04.672 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.075953  val 0.073942  best 0.073628
+2025-09-10 16:30:04.672 | INFO     | main:train_gappy_vae:301 - Wall-clock: 54.77s
+2025-09-10 16:30:04.674 | INFO     | main:demo_once:322 - Demo — MSE: 3.393877e-02 ; PSNR: 14.69 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:30:04.845 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:30:04.845 | INFO     | __main__:hyperparameter_search:20 - Experiment 8/10
+2025-09-10 16:30:04.845 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 256, 'depth': 5, 'lr': 0.001, 'kl_lambda': 1e-05}
+2025-09-10 16:30:05.979 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.575247  val 0.569829  best 0.569829
+2025-09-10 16:30:10.450 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.569192  val 0.569915  best 0.567681
+2025-09-10 16:30:16.071 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.570774  val 0.571011  best 0.566836
+2025-09-10 16:30:21.656 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.568381  val 0.569274  best 0.564355
+2025-09-10 16:30:27.242 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.569470  val 0.567041  best 0.564355
+2025-09-10 16:30:32.844 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.570923  val 0.566319  best 0.564355
+2025-09-10 16:30:38.445 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.570672  val 0.566160  best 0.564355
+2025-09-10 16:30:44.037 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.569213  val 0.572274  best 0.564355
+2025-09-10 16:30:49.630 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.572346  val 0.571508  best 0.560425
+2025-09-10 16:30:55.227 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.568766  val 0.574649  best 0.560425
+2025-09-10 16:31:00.825 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.569835  val 0.565104  best 0.560425
+2025-09-10 16:31:00.825 | INFO     | main:train_gappy_vae:301 - Wall-clock: 55.97s
+2025-09-10 16:31:00.826 | INFO     | main:demo_once:322 - Demo — MSE: 4.821409e-01 ; PSNR: 3.17 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:31:00.995 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:31:00.996 | INFO     | __main__:hyperparameter_search:20 - Experiment 9/10
+2025-09-10 16:31:00.996 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 256, 'depth': 5, 'lr': 0.001, 'kl_lambda': 1e-06}
+2025-09-10 16:31:02.122 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.575234  val 0.569831  best 0.569831
+2025-09-10 16:31:06.598 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.485290  val 0.469274  best 0.469274
+2025-09-10 16:31:12.191 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.329329  val 0.330105  best 0.330105
+2025-09-10 16:31:17.805 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.154995  val 0.140354  best 0.140354
+2025-09-10 16:31:23.405 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.087278  val 0.085882  best 0.085882
+2025-09-10 16:31:29.004 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.082225  val 0.081482  best 0.081482
+2025-09-10 16:31:34.591 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.080409  val 0.079426  best 0.079314
+2025-09-10 16:31:40.174 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.078222  val 0.079673  best 0.078405
+2025-09-10 16:31:45.750 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.079129  val 0.076876  best 0.076876
+2025-09-10 16:31:51.369 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.077815  val 0.079845  best 0.076133
+2025-09-10 16:31:56.947 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.077601  val 0.075610  best 0.075610
+2025-09-10 16:31:56.947 | INFO     | main:train_gappy_vae:301 - Wall-clock: 55.94s
+2025-09-10 16:31:56.948 | INFO     | main:demo_once:322 - Demo — MSE: 5.534888e-02 ; PSNR: 12.57 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:31:57.119 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:31:57.119 | INFO     | __main__:hyperparameter_search:20 - Experiment 10/10
+2025-09-10 16:31:57.119 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 32, 'width': 512, 'depth': 3, 'lr': 0.001, 'kl_lambda': 1e-06}
+2025-09-10 16:31:58.205 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.577233  val 0.570398  best 0.570398
+2025-09-10 16:32:02.470 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.492802  val 0.487046  best 0.487046
+2025-09-10 16:32:07.812 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.325784  val 0.336694  best 0.326891
+2025-09-10 16:32:13.168 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.082131  val 0.082580  best 0.082163
+2025-09-10 16:32:18.525 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.079337  val 0.078385  best 0.078385
+2025-09-10 16:32:23.898 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.078549  val 0.078619  best 0.077867
+2025-09-10 16:32:29.250 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.078257  val 0.077256  best 0.076740
+2025-09-10 16:32:34.614 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.076479  val 0.078160  best 0.076740
+2025-09-10 16:32:39.973 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.077909  val 0.075597  best 0.075402
+2025-09-10 16:32:45.319 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.076243  val 0.077875  best 0.075079
+2025-09-10 16:32:50.679 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.076797  val 0.074680  best 0.074458
+2025-09-10 16:32:50.679 | INFO     | main:train_gappy_vae:301 - Wall-clock: 53.55s
+2025-09-10 16:32:50.680 | INFO     | main:demo_once:322 - Demo — MSE: 2.853312e-02 ; PSNR: 15.45 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:32:50.851 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:33:46.133 | INFO     | __main__:hyperparameter_search:20 - Experiment 1/10
+2025-09-10 16:33:46.134 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 128, 'depth': 5, 'lr': 0.001, 'kl_lambda': 0.0001}
+2025-09-10 16:33:48.155 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.593694  val 0.570188  best 0.570188
+2025-09-10 16:33:52.673 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.569197  val 0.569941  best 0.567685
+2025-09-10 16:33:58.307 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.570758  val 0.571011  best 0.566848
+2025-09-10 16:34:03.961 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.568373  val 0.569271  best 0.564346
+2025-09-10 16:34:09.639 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.569459  val 0.567036  best 0.564346
+2025-09-10 16:34:15.296 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.570923  val 0.566330  best 0.564346
+2025-09-10 16:34:20.954 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.570674  val 0.566167  best 0.564346
+2025-09-10 16:34:26.605 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.569221  val 0.572268  best 0.564346
+2025-09-10 16:34:32.260 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.572355  val 0.571512  best 0.560428
+2025-09-10 16:34:37.925 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.568769  val 0.574661  best 0.560428
+2025-09-10 16:34:43.601 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.569842  val 0.565102  best 0.560428
+2025-09-10 16:34:43.601 | INFO     | main:train_gappy_vae:301 - Wall-clock: 56.77s
+2025-09-10 16:34:43.605 | INFO     | main:demo_once:322 - Demo — MSE: 4.824835e-01 ; PSNR: 3.17 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:34:43.789 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:34:43.789 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 64, 'width': 128, 'depth': 5, 'lr': 0.001, 'kl_lambda': 0.0001} | PSNR: 3.165175016863306
+2025-09-10 16:34:43.789 | INFO     | __main__:hyperparameter_search:20 - Experiment 2/10
+2025-09-10 16:34:43.789 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 128, 'depth': 4, 'lr': 0.0001, 'kl_lambda': 0.0001}
+2025-09-10 16:34:44.898 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.758146  val 0.612244  best 0.612244
+2025-09-10 16:34:49.317 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.572467  val 0.572955  best 0.572955
+2025-09-10 16:34:54.861 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.571891  val 0.571988  best 0.568143
+2025-09-10 16:35:00.400 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.568864  val 0.569762  best 0.564825
+2025-09-10 16:35:05.946 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.569671  val 0.567297  best 0.564825
+2025-09-10 16:35:11.509 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.571027  val 0.566459  best 0.564825
+2025-09-10 16:35:17.039 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.570772  val 0.566190  best 0.564825
+2025-09-10 16:35:22.577 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.569285  val 0.572434  best 0.564825
+2025-09-10 16:35:28.129 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.572352  val 0.571594  best 0.560548
+2025-09-10 16:35:33.669 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.568804  val 0.574575  best 0.560548
+2025-09-10 16:35:39.190 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.569849  val 0.565110  best 0.560548
+2025-09-10 16:35:39.190 | INFO     | main:train_gappy_vae:301 - Wall-clock: 55.40s
+2025-09-10 16:35:39.191 | INFO     | main:demo_once:322 - Demo — MSE: 4.811833e-01 ; PSNR: 3.18 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:35:39.362 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:35:39.363 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 64, 'width': 128, 'depth': 4, 'lr': 0.0001, 'kl_lambda': 0.0001} | PSNR: 3.176894623331268
+2025-09-10 16:35:39.363 | INFO     | __main__:hyperparameter_search:20 - Experiment 3/10
+2025-09-10 16:35:39.363 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 256, 'depth': 3, 'lr': 0.001, 'kl_lambda': 0.0001}
+2025-09-10 16:35:40.456 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.584003  val 0.570461  best 0.570461
+2025-09-10 16:35:44.793 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.569224  val 0.569946  best 0.567754
+2025-09-10 16:35:50.235 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.570773  val 0.571030  best 0.566850
+2025-09-10 16:35:55.678 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.568380  val 0.569272  best 0.564341
+2025-09-10 16:36:01.124 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.569465  val 0.567038  best 0.564341
+2025-09-10 16:36:06.583 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.570921  val 0.566325  best 0.564341
+2025-09-10 16:36:12.030 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.570670  val 0.566156  best 0.564341
+2025-09-10 16:36:17.493 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.569216  val 0.572271  best 0.564341
+2025-09-10 16:36:22.952 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.572345  val 0.571516  best 0.560419
+2025-09-10 16:36:28.419 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.568762  val 0.574644  best 0.560419
+2025-09-10 16:36:33.870 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.569833  val 0.565099  best 0.560419
+2025-09-10 16:36:33.870 | INFO     | main:train_gappy_vae:301 - Wall-clock: 54.50s
+2025-09-10 16:36:33.871 | INFO     | main:demo_once:322 - Demo — MSE: 4.821838e-01 ; PSNR: 3.17 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:36:34.044 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:36:34.044 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 64, 'width': 256, 'depth': 3, 'lr': 0.001, 'kl_lambda': 0.0001} | PSNR: 3.167874258003839
+2025-09-10 16:36:34.044 | INFO     | __main__:hyperparameter_search:20 - Experiment 4/10
+2025-09-10 16:36:34.044 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 32, 'width': 128, 'depth': 3, 'lr': 0.0001, 'kl_lambda': 1e-05}
+2025-09-10 16:36:35.131 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.818711  val 0.658121  best 0.658121
+2025-09-10 16:36:39.460 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.582255  val 0.581812  best 0.581812
+2025-09-10 16:36:44.874 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.575598  val 0.575376  best 0.572111
+2025-09-10 16:36:50.293 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.570283  val 0.571080  best 0.566364
+2025-09-10 16:36:55.728 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.570309  val 0.567889  best 0.566364
+2025-09-10 16:37:01.148 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.571268  val 0.566680  best 0.565344
+2025-09-10 16:37:06.568 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.541388  val 0.532839  best 0.532839
+2025-09-10 16:37:11.981 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.504143  val 0.503817  best 0.503817
+2025-09-10 16:37:17.389 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.498156  val 0.491982  best 0.487726
+2025-09-10 16:37:22.824 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.430932  val 0.430236  best 0.430236
+2025-09-10 16:37:28.247 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.417152  val 0.412657  best 0.412657
+2025-09-10 16:37:28.247 | INFO     | main:train_gappy_vae:301 - Wall-clock: 54.20s
+2025-09-10 16:37:28.249 | INFO     | main:demo_once:322 - Demo — MSE: 3.470387e-01 ; PSNR: 4.60 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:37:28.422 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:37:28.423 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 32, 'width': 128, 'depth': 3, 'lr': 0.0001, 'kl_lambda': 1e-05} | PSNR: 4.596221093605088
+2025-09-10 16:37:28.423 | INFO     | __main__:hyperparameter_search:20 - Experiment 5/10
+2025-09-10 16:37:28.423 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 16, 'width': 128, 'depth': 3, 'lr': 0.001, 'kl_lambda': 1e-06}
+2025-09-10 16:37:29.514 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.611833  val 0.572660  best 0.572660
+2025-09-10 16:37:33.857 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.505670  val 0.493914  best 0.493914
+2025-09-10 16:37:39.269 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.394646  val 0.369060  best 0.369060
+2025-09-10 16:37:44.701 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.223271  val 0.199916  best 0.199916
+2025-09-10 16:37:50.121 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.081473  val 0.080638  best 0.080638
+2025-09-10 16:37:55.573 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.080022  val 0.080274  best 0.079519
+2025-09-10 16:38:01.039 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.079832  val 0.078912  best 0.078238
+2025-09-10 16:38:06.452 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.078816  val 0.079963  best 0.078238
+2025-09-10 16:38:11.872 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.080793  val 0.077664  best 0.076743
+2025-09-10 16:38:17.289 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.078114  val 0.079479  best 0.076743
+2025-09-10 16:38:22.695 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.078053  val 0.076263  best 0.075854
+2025-09-10 16:38:22.696 | INFO     | main:train_gappy_vae:301 - Wall-clock: 54.27s
+2025-09-10 16:38:22.697 | INFO     | main:demo_once:322 - Demo — MSE: 4.230534e-02 ; PSNR: 13.74 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:38:22.869 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:38:22.869 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 16, 'width': 128, 'depth': 3, 'lr': 0.001, 'kl_lambda': 1e-06} | PSNR: 13.736048574538263
+2025-09-10 16:38:22.869 | INFO     | __main__:hyperparameter_search:20 - Experiment 6/10
+2025-09-10 16:38:22.869 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 512, 'depth': 4, 'lr': 0.001, 'kl_lambda': 0.0001}
+2025-09-10 16:38:24.008 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.571093  val 0.569740  best 0.569740
+2025-09-10 16:38:28.470 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.569194  val 0.569948  best 0.567696
+2025-09-10 16:38:34.043 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.570775  val 0.571024  best 0.566835
+2025-09-10 16:38:39.613 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.568379  val 0.569277  best 0.564357
+2025-09-10 16:38:45.183 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.569463  val 0.567030  best 0.564357
+2025-09-10 16:38:50.755 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.570912  val 0.566312  best 0.564357
+2025-09-10 16:38:56.347 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.570669  val 0.566141  best 0.564357
+2025-09-10 16:39:01.930 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.569208  val 0.572274  best 0.564357
+2025-09-10 16:39:07.511 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.572334  val 0.571512  best 0.560445
+2025-09-10 16:39:13.097 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.568762  val 0.574624  best 0.560445
+2025-09-10 16:39:18.697 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.569827  val 0.565097  best 0.560445
+2025-09-10 16:39:18.697 | INFO     | main:train_gappy_vae:301 - Wall-clock: 55.81s
+2025-09-10 16:39:18.701 | INFO     | main:demo_once:322 - Demo — MSE: 4.818874e-01 ; PSNR: 3.17 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:39:18.872 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:39:18.872 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 64, 'width': 512, 'depth': 4, 'lr': 0.001, 'kl_lambda': 0.0001} | PSNR: 3.170544021350098
+2025-09-10 16:39:18.872 | INFO     | __main__:hyperparameter_search:20 - Experiment 7/10
+2025-09-10 16:39:18.872 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 32, 'width': 128, 'depth': 4, 'lr': 0.0001, 'kl_lambda': 1e-06}
+2025-09-10 16:39:19.986 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.738065  val 0.609875  best 0.609875
+2025-09-10 16:39:24.399 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.572597  val 0.573232  best 0.572267
+2025-09-10 16:39:29.923 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.572451  val 0.572596  best 0.568694
+2025-09-10 16:39:35.463 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.534079  val 0.530710  best 0.530710
+2025-09-10 16:39:40.988 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.492692  val 0.490519  best 0.490519
+2025-09-10 16:39:46.524 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.429020  val 0.420876  best 0.420876
+2025-09-10 16:39:52.045 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.414022  val 0.413706  best 0.413581
+2025-09-10 16:39:57.570 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.409921  val 0.417188  best 0.410175
+2025-09-10 16:40:03.092 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.410853  val 0.402866  best 0.402866
+2025-09-10 16:40:08.628 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.368745  val 0.369096  best 0.369096
+2025-09-10 16:40:14.158 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.332344  val 0.325630  best 0.319668
+2025-09-10 16:40:14.159 | INFO     | main:train_gappy_vae:301 - Wall-clock: 55.28s
+2025-09-10 16:40:14.160 | INFO     | main:demo_once:322 - Demo — MSE: 3.290823e-01 ; PSNR: 4.83 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:40:14.332 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:40:14.332 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 32, 'width': 128, 'depth': 4, 'lr': 0.0001, 'kl_lambda': 1e-06} | PSNR: 4.8269546255255635
+2025-09-10 16:40:14.333 | INFO     | __main__:hyperparameter_search:20 - Experiment 8/10
+2025-09-10 16:40:14.333 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 32, 'width': 128, 'depth': 3, 'lr': 0.0001, 'kl_lambda': 1e-06}
+2025-09-10 16:40:15.424 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.818536  val 0.657647  best 0.657647
+2025-09-10 16:40:19.763 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.575349  val 0.575680  best 0.575680
+2025-09-10 16:40:25.177 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.574991  val 0.575074  best 0.571166
+2025-09-10 16:40:30.592 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.571407  val 0.572293  best 0.567422
+2025-09-10 16:40:36.010 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.539128  val 0.533429  best 0.533429
+2025-09-10 16:40:41.428 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.497975  val 0.494860  best 0.494860
+2025-09-10 16:40:46.839 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.484685  val 0.480404  best 0.480404
+2025-09-10 16:40:52.246 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.418720  val 0.415153  best 0.415153
+2025-09-10 16:40:57.656 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.412020  val 0.414343  best 0.401535
+2025-09-10 16:41:03.076 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.371497  val 0.377749  best 0.367041
+2025-09-10 16:41:08.498 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.356127  val 0.351861  best 0.351861
+2025-09-10 16:41:08.498 | INFO     | main:train_gappy_vae:301 - Wall-clock: 54.16s
+2025-09-10 16:41:08.499 | INFO     | main:demo_once:322 - Demo — MSE: 1.342278e-01 ; PSNR: 8.72 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:41:08.672 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:41:08.673 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 32, 'width': 128, 'depth': 3, 'lr': 0.0001, 'kl_lambda': 1e-06} | PSNR: 8.721574398834578
+2025-09-10 16:41:08.673 | INFO     | __main__:hyperparameter_search:20 - Experiment 9/10
+2025-09-10 16:41:08.673 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 256, 'depth': 3, 'lr': 0.0001, 'kl_lambda': 0.0001}
+2025-09-10 16:41:09.767 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.656954  val 0.595133  best 0.595133
+2025-09-10 16:41:14.124 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.572532  val 0.572684  best 0.572684
+2025-09-10 16:41:19.573 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.571987  val 0.572263  best 0.568211
+2025-09-10 16:41:25.012 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.568985  val 0.569890  best 0.564966
+2025-09-10 16:41:30.454 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.569749  val 0.567374  best 0.564966
+2025-09-10 16:41:35.892 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.571041  val 0.566475  best 0.564966
+2025-09-10 16:41:41.330 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.570777  val 0.566176  best 0.564966
+2025-09-10 16:41:46.780 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.569281  val 0.572451  best 0.564966
+2025-09-10 16:41:52.218 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.572342  val 0.571609  best 0.560538
+2025-09-10 16:41:57.667 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.568788  val 0.574554  best 0.560538
+2025-09-10 16:42:03.114 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.569847  val 0.565126  best 0.560538
+2025-09-10 16:42:03.114 | INFO     | main:train_gappy_vae:301 - Wall-clock: 54.44s
+2025-09-10 16:42:03.115 | INFO     | main:demo_once:322 - Demo — MSE: 4.812287e-01 ; PSNR: 3.18 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:42:03.291 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:42:03.291 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 64, 'width': 256, 'depth': 3, 'lr': 0.0001, 'kl_lambda': 0.0001} | PSNR: 3.176484444525208
+2025-09-10 16:42:03.291 | INFO     | __main__:hyperparameter_search:20 - Experiment 10/10
+2025-09-10 16:42:03.291 | INFO     | __main__:hyperparameter_search:30 - Config: {'latent_dim': 64, 'width': 256, 'depth': 4, 'lr': 0.0001, 'kl_lambda': 1e-06}
+2025-09-10 16:42:04.414 | INFO     | main:train_gappy_vae:300 - [ep 001] train 0.617825  val 0.575998  best 0.575998
+2025-09-10 16:42:08.896 | INFO     | main:train_gappy_vae:300 - [ep 005] train 0.570535  val 0.571089  best 0.569645
+2025-09-10 16:42:14.481 | INFO     | main:train_gappy_vae:300 - [ep 010] train 0.571047  val 0.571232  best 0.567274
+2025-09-10 16:42:20.072 | INFO     | main:train_gappy_vae:300 - [ep 015] train 0.491736  val 0.492443  best 0.491940
+2025-09-10 16:42:25.659 | INFO     | main:train_gappy_vae:300 - [ep 020] train 0.448663  val 0.448319  best 0.448319
+2025-09-10 16:42:31.250 | INFO     | main:train_gappy_vae:300 - [ep 025] train 0.402915  val 0.405212  best 0.405212
+2025-09-10 16:42:36.848 | INFO     | main:train_gappy_vae:300 - [ep 030] train 0.332429  val 0.340065  best 0.334379
+2025-09-10 16:42:42.419 | INFO     | main:train_gappy_vae:300 - [ep 035] train 0.316550  val 0.311716  best 0.311716
+2025-09-10 16:42:47.984 | INFO     | main:train_gappy_vae:300 - [ep 040] train 0.262128  val 0.258323  best 0.258323
+2025-09-10 16:42:53.559 | INFO     | main:train_gappy_vae:300 - [ep 045] train 0.252436  val 0.256005  best 0.241887
+2025-09-10 16:42:59.117 | INFO     | main:train_gappy_vae:300 - [ep 050] train 0.238526  val 0.217888  best 0.217888
+2025-09-10 16:42:59.117 | INFO     | main:train_gappy_vae:301 - Wall-clock: 55.82s
+2025-09-10 16:42:59.118 | INFO     | main:demo_once:322 - Demo — MSE: 3.491116e-01 ; PSNR: 4.57 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:42:59.290 | INFO     | main:demo_once:325 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:42:59.291 | INFO     | __main__:hyperparameter_search:39 - Config: {'latent_dim': 64, 'width': 256, 'depth': 4, 'lr': 0.0001, 'kl_lambda': 1e-06} | PSNR: 4.570356998929898

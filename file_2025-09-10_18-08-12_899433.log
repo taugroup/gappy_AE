@@ -1,0 +1,46 @@
+2025-09-10 18:08:12.902 | INFO     | __main__:main:539 - Device: cuda
+2025-09-10 18:08:12.902 | INFO     | __main__:main:543 - Running experiment with kl_lambda: 0.0001
+2025-09-10 18:08:15.039 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 001] train 1.434585  val 0.809446  best 0.809446
+2025-09-10 18:08:19.470 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 005] train 0.601150  val 0.594412  best 0.594412
+2025-09-10 18:08:25.008 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 010] train 0.278857  val 0.266102  best 0.266102
+2025-09-10 18:08:30.571 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 015] train 0.218243  val 0.217183  best 0.216743
+2025-09-10 18:08:36.115 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 020] train 0.211531  val 0.210066  best 0.210066
+2025-09-10 18:08:41.691 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 025] train 0.209034  val 0.205232  best 0.205232
+2025-09-10 18:08:47.241 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 030] train 0.206399  val 0.204811  best 0.204566
+2025-09-10 18:08:52.789 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 035] train 0.201870  val 0.202031  best 0.201933
+2025-09-10 18:08:58.345 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 040] train 0.198675  val 0.193216  best 0.193216
+2025-09-10 18:09:03.897 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 045] train 0.189990  val 0.190013  best 0.190013
+2025-09-10 18:09:09.442 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 050] train 0.185795  val 0.181420  best 0.181420
+2025-09-10 18:09:09.442 | INFO     | __main__:train_gappy_conv_vae:412 - Wall-clock: 55.84s
+2025-09-10 18:09:09.458 | INFO     | __main__:demo_once:437 - Demo — MSE: 7.939745e-02 ; PSNR: 11.00 dB ; N=256, M=32, σ=0.05
+2025-09-10 18:09:09.645 | INFO     | __main__:demo_once:440 - Saved reconstruction plot to outputs/kl_0.0001/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 18:09:09.645 | INFO     | __main__:main:543 - Running experiment with kl_lambda: 1e-05
+2025-09-10 18:09:10.762 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 001] train 1.160258  val 0.664753  best 0.664753
+2025-09-10 18:09:15.199 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 005] train 0.232961  val 0.185278  best 0.185278
+2025-09-10 18:09:20.743 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 010] train 0.152577  val 0.151983  best 0.151983
+2025-09-10 18:09:26.284 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 015] train 0.138188  val 0.138963  best 0.135648
+2025-09-10 18:09:31.838 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 020] train 0.124497  val 0.119573  best 0.119573
+2025-09-10 18:09:37.383 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 025] train 0.115121  val 0.112371  best 0.112371
+2025-09-10 18:09:42.948 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 030] train 0.111961  val 0.110128  best 0.109640
+2025-09-10 18:09:48.504 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 035] train 0.107616  val 0.107258  best 0.105547
+2025-09-10 18:09:54.063 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 040] train 0.105902  val 0.102398  best 0.102398
+2025-09-10 18:09:59.630 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 045] train 0.104025  val 0.104263  best 0.102398
+2025-09-10 18:10:05.177 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 050] train 0.102689  val 0.101009  best 0.100381
+2025-09-10 18:10:05.177 | INFO     | __main__:train_gappy_conv_vae:412 - Wall-clock: 55.52s
+2025-09-10 18:10:05.179 | INFO     | __main__:demo_once:437 - Demo — MSE: 3.094776e-02 ; PSNR: 15.09 dB ; N=256, M=32, σ=0.05
+2025-09-10 18:10:05.349 | INFO     | __main__:demo_once:440 - Saved reconstruction plot to outputs/kl_1e-05/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 18:10:05.349 | INFO     | __main__:main:543 - Running experiment with kl_lambda: 1e-06
+2025-09-10 18:10:06.473 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 001] train 1.079453  val 0.586986  best 0.586986
+2025-09-10 18:10:10.923 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 005] train 0.123072  val 0.108787  best 0.108787
+2025-09-10 18:10:16.481 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 010] train 0.095925  val 0.097005  best 0.097005
+2025-09-10 18:10:22.035 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 015] train 0.094125  val 0.094721  best 0.093593
+2025-09-10 18:10:27.610 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 020] train 0.091912  val 0.091634  best 0.091634
+2025-09-10 18:10:33.190 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 025] train 0.091481  val 0.091964  best 0.091004
+2025-09-10 18:10:38.776 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 030] train 0.090698  val 0.091958  best 0.088934
+2025-09-10 18:10:44.340 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 035] train 0.088695  val 0.089735  best 0.088483
+2025-09-10 18:10:49.901 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 040] train 0.089324  val 0.086737  best 0.085987
+2025-09-10 18:10:55.466 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 045] train 0.087126  val 0.088193  best 0.085835
+2025-09-10 18:11:01.147 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 050] train 0.086412  val 0.085001  best 0.085001
+2025-09-10 18:11:01.147 | INFO     | __main__:train_gappy_conv_vae:412 - Wall-clock: 55.79s
+2025-09-10 18:11:01.148 | INFO     | __main__:demo_once:437 - Demo — MSE: 1.754338e-02 ; PSNR: 17.56 dB ; N=256, M=32, σ=0.05
+2025-09-10 18:11:01.326 | INFO     | __main__:demo_once:440 - Saved reconstruction plot to outputs/kl_1e-06/gappy_recon_N256_M32_sigma0.05.png

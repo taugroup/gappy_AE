@@ -1,0 +1,20 @@
+2025-09-10 16:17:55.354 | INFO     | __main__:main:279 - Device: cuda
+2025-09-10 16:17:55.354 | INFO     | __main__:main:280 - N=256, M=32, σ=0.05, epochs=50, bs=128, width=256, depth=3, λ_obs=1.0, λ_fem=0.001, λ_kl=1e-05
+2025-09-10 16:17:57.342 | INFO     | __main__:train_gappy_vae:235 - [ep 001] train 0.583206  val 0.570461  best 0.570461
+2025-09-10 16:18:01.593 | INFO     | __main__:train_gappy_vae:235 - [ep 005] train 0.569204  val 0.569836  best 0.567849
+2025-09-10 16:18:06.788 | INFO     | __main__:train_gappy_vae:235 - [ep 010] train 0.441756  val 0.417447  best 0.417447
+2025-09-10 16:18:11.977 | INFO     | __main__:train_gappy_vae:235 - [ep 015] train 0.258432  val 0.250061  best 0.250061
+2025-09-10 16:18:17.404 | INFO     | __main__:train_gappy_vae:235 - [ep 020] train 0.107061  val 0.102162  best 0.102162
+2025-09-10 16:18:22.870 | INFO     | __main__:train_gappy_vae:235 - [ep 025] train 0.095157  val 0.094600  best 0.094600
+2025-09-10 16:18:28.311 | INFO     | __main__:train_gappy_vae:235 - [ep 030] train 0.092974  val 0.092234  best 0.091111
+2025-09-10 16:18:33.660 | INFO     | __main__:train_gappy_vae:235 - [ep 035] train 0.089553  val 0.090383  best 0.089670
+2025-09-10 16:18:38.995 | INFO     | __main__:train_gappy_vae:235 - [ep 040] train 0.090593  val 0.088049  best 0.087538
+2025-09-10 16:18:44.328 | INFO     | __main__:train_gappy_vae:235 - [ep 045] train 0.089018  val 0.089629  best 0.087188
+2025-09-10 16:18:49.658 | INFO     | __main__:train_gappy_vae:235 - [ep 050] train 0.088285  val 0.086138  best 0.086138
+2025-09-10 16:18:49.658 | INFO     | __main__:train_gappy_vae:236 - Wall-clock: 53.60s
+2025-09-10 16:18:49.662 | INFO     | __main__:demo_once:257 - Demo — MSE: 3.873283e-02 ; PSNR: 14.12 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:18:49.847 | INFO     | __main__:demo_once:260 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:18:49.849 | INFO     | __main__:demo_once:257 - Demo — MSE: 7.048399e-02 ; PSNR: 11.52 dB ; N=256, M=16, σ=0.05
+2025-09-10 16:18:50.001 | INFO     | __main__:demo_once:260 - Saved reconstruction plot to outputs/gappy_recon_N256_M16_sigma0.05.png
+2025-09-10 16:18:50.002 | INFO     | __main__:demo_once:257 - Demo — MSE: 2.367509e-03 ; PSNR: 26.26 dB ; N=256, M=32, σ=0.1
+2025-09-10 16:18:50.156 | INFO     | __main__:demo_once:260 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.1.png

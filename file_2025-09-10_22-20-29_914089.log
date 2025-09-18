@@ -1,0 +1,16 @@
+2025-09-10 22:20:29.916 | INFO     | __main__:main:540 - Device: cuda
+2025-09-10 22:20:29.916 | INFO     | __main__:main:542 - Running final model with best hyperparameters
+2025-09-10 22:20:32.055 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 001] train 1.079453  val 0.586986  best 0.586986
+2025-09-10 22:20:36.460 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 005] train 0.123072  val 0.108787  best 0.108787
+2025-09-10 22:20:42.021 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 010] train 0.095925  val 0.097005  best 0.097005
+2025-09-10 22:20:47.536 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 015] train 0.094125  val 0.094721  best 0.093593
+2025-09-10 22:20:53.061 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 020] train 0.091912  val 0.091634  best 0.091634
+2025-09-10 22:20:58.610 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 025] train 0.091481  val 0.091964  best 0.091004
+2025-09-10 22:21:04.125 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 030] train 0.090698  val 0.091958  best 0.088934
+2025-09-10 22:21:09.637 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 035] train 0.088695  val 0.089735  best 0.088483
+2025-09-10 22:21:15.146 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 040] train 0.089324  val 0.086737  best 0.085987
+2025-09-10 22:21:20.661 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 045] train 0.087126  val 0.088193  best 0.085835
+2025-09-10 22:21:26.177 | INFO     | __main__:train_gappy_conv_vae:411 - [ep 050] train 0.086412  val 0.085001  best 0.085001
+2025-09-10 22:21:26.177 | INFO     | __main__:train_gappy_conv_vae:412 - Wall-clock: 55.56s
+2025-09-10 22:21:26.194 | INFO     | __main__:demo_once:437 - Demo — MSE: 1.754338e-02 ; PSNR: 17.56 dB ; N=256, M=32, σ=0.05
+2025-09-10 22:21:26.379 | INFO     | __main__:demo_once:440 - Saved reconstruction plot to outputs/final_model/gappy_recon_N256_M32_sigma0.05.png

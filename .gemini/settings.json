@@ -1,0 +1,6 @@
+{
+  "persona": "software_engineer",
+  "execution": {
+    "conda_env": "gappy"
+  }
+}

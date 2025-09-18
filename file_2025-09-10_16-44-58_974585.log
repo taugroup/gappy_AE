@@ -1,0 +1,131 @@
+2025-09-10 16:44:58.977 | INFO     | __main__:main:540 - Device: cuda
+2025-09-10 16:44:58.977 | INFO     | __main__:main:541 - N=256, M=32, σ=0.05, epochs=50, bs=128, width=256, depth=3, λ_obs=1.0, λ_fem=0.001, λ_kl=1e-05
+2025-09-10 16:45:01.393 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 001] train 0.848004  val 0.641824  best 0.641824
+2025-09-10 16:45:05.998 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 005] train 0.218704  val 0.169155  best 0.169155
+2025-09-10 16:45:11.601 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 010] train 0.127467  val 0.124496  best 0.124496
+2025-09-10 16:45:17.216 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 015] train 0.109377  val 0.108939  best 0.108939
+2025-09-10 16:45:22.828 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 020] train 0.103397  val 0.102553  best 0.102553
+2025-09-10 16:45:28.447 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 025] train 0.102091  val 0.101616  best 0.101127
+2025-09-10 16:45:34.056 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 030] train 0.101125  val 0.099803  best 0.099450
+2025-09-10 16:45:39.678 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 035] train 0.098671  val 0.100308  best 0.098755
+2025-09-10 16:45:45.297 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 040] train 0.099244  val 0.097074  best 0.095965
+2025-09-10 16:45:50.919 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 045] train 0.097763  val 0.098992  best 0.095965
+2025-09-10 16:45:56.554 | INFO     | __main__:train_gappy_conv_vae:409 - [ep 050] train 0.097540  val 0.095280  best 0.094787
+2025-09-10 16:45:56.554 | INFO     | __main__:train_gappy_conv_vae:410 - Wall-clock: 56.82s
+2025-09-10 16:45:56.581 | INFO     | __main__:demo_once:435 - Demo — MSE: 2.894928e-02 ; PSNR: 15.38 dB ; N=256, M=32, σ=0.05
+2025-09-10 16:45:56.767 | INFO     | __main__:demo_once:438 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.05.png
+2025-09-10 16:45:56.769 | INFO     | __main__:demo_once:435 - Demo — MSE: 2.615298e-02 ; PSNR: 15.82 dB ; N=256, M=16, σ=0.05
+2025-09-10 16:45:56.920 | INFO     | __main__:demo_once:438 - Saved reconstruction plot to outputs/gappy_recon_N256_M16_sigma0.05.png
+2025-09-10 16:45:56.921 | INFO     | __main__:demo_once:435 - Demo — MSE: 7.593032e-03 ; PSNR: 21.20 dB ; N=256, M=32, σ=0.1
+2025-09-10 16:45:57.074 | INFO     | __main__:demo_once:438 - Saved reconstruction plot to outputs/gappy_recon_N256_M32_sigma0.1.png
+2025-09-10 16:45:57.424 | INFO     | __main__:main:562 - σ=0.000  MSE=2.163e-02  PSNR=16.65 dB
+2025-09-10 16:45:57.772 | INFO     | __main__:main:562 - σ=0.025  MSE=2.147e-02  PSNR=16.68 dB
+2025-09-10 16:45:58.121 | INFO     | __main__:main:562 - σ=0.050  MSE=2.201e-02  PSNR=16.57 dB
+2025-09-10 16:45:58.475 | INFO     | __main__:main:562 - σ=0.075  MSE=2.250e-02  PSNR=16.48 dB
+2025-09-10 16:45:58.824 | INFO     | __main__:main:562 - σ=0.100  MSE=2.310e-02  PSNR=16.36 dB
+2025-09-10 16:45:59.173 | INFO     | __main__:main:562 - σ=0.125  MSE=2.414e-02  PSNR=16.17 dB
+2025-09-10 16:45:59.519 | INFO     | __main__:main:562 - σ=0.150  MSE=2.503e-02  PSNR=16.02 dB
+2025-09-10 16:45:59.866 | INFO     | __main__:main:562 - σ=0.175  MSE=2.644e-02  PSNR=15.78 dB
+2025-09-10 16:46:00.217 | INFO     | __main__:main:562 - σ=0.200  MSE=2.845e-02  PSNR=15.46 dB
+2025-09-10 16:46:00.354 | INFO     | __main__:main:564 - Saved noise sweep plot to outputs/noise_sweep.png
+2025-09-10 16:46:00.702 | INFO     | __main__:main:572 - M=  4  MSE=2.988e-01  PSNR=5.25 dB
+2025-09-10 16:46:01.048 | INFO     | __main__:main:572 - M= 17  MSE=5.420e-02  PSNR=12.66 dB
+2025-09-10 16:46:01.396 | INFO     | __main__:main:572 - M= 31  MSE=2.338e-02  PSNR=16.31 dB
+2025-09-10 16:46:01.744 | INFO     | __main__:main:572 - M= 45  MSE=1.323e-02  PSNR=18.78 dB
+2025-09-10 16:46:02.092 | INFO     | __main__:main:572 - M= 59  MSE=1.223e-02  PSNR=19.12 dB
+2025-09-10 16:46:02.440 | INFO     | __main__:main:572 - M= 72  MSE=8.808e-03  PSNR=20.55 dB
+2025-09-10 16:46:02.788 | INFO     | __main__:main:572 - M= 86  MSE=8.129e-03  PSNR=20.90 dB
+2025-09-10 16:46:03.136 | INFO     | __main__:main:572 - M=100  MSE=7.703e-03  PSNR=21.13 dB
+2025-09-10 16:46:03.503 | INFO     | __main__:main:572 - M=114  MSE=6.512e-03  PSNR=21.86 dB
+2025-09-10 16:46:03.851 | INFO     | __main__:main:572 - M=128  MSE=6.106e-03  PSNR=22.14 dB
+2025-09-10 16:46:03.983 | INFO     | __main__:main:574 - Saved observation sweep plot to outputs/observation_sweep.png
+2025-09-10 16:46:04.332 | INFO     | __main__:main:582 - random     MSE=2.155e-02  PSNR=16.66 dB
+2025-09-10 16:46:04.680 | INFO     | __main__:main:582 - block      MSE=3.337e-01  PSNR=4.77 dB
+2025-09-10 16:46:05.039 | INFO     | __main__:main:582 - clusters   MSE=2.368e-01  PSNR=6.26 dB
+2025-09-10 16:46:05.144 | INFO     | __main__:main:584 - Saved mask pattern stress plot to outputs/mask_pattern_stress.png
+2025-09-10 16:46:05.408 | INFO     | __main__:main:593 - f=1  PSNR=21.36 dB
+2025-09-10 16:46:05.668 | INFO     | __main__:main:593 - f=2  PSNR=17.84 dB
+2025-09-10 16:46:05.929 | INFO     | __main__:main:593 - f=3  PSNR=13.99 dB
+2025-09-10 16:46:06.190 | INFO     | __main__:main:593 - f=4  PSNR=2.68 dB
+2025-09-10 16:46:06.453 | INFO     | __main__:main:593 - f=5  PSNR=2.58 dB
+2025-09-10 16:46:06.714 | INFO     | __main__:main:593 - f=6  PSNR=2.47 dB
+2025-09-10 16:46:06.974 | INFO     | __main__:main:593 - f=7  PSNR=2.37 dB
+2025-09-10 16:46:07.235 | INFO     | __main__:main:593 - f=8  PSNR=2.24 dB
+2025-09-10 16:46:07.371 | INFO     | __main__:main:595 - Saved frequency generalization plot to outputs/frequency_generalization.png
+2025-09-10 16:46:07.371 | INFO     | __main__:main:601 - 
+=== λ_FEM=0.0 ===
+2025-09-10 16:46:08.365 | INFO     | __main__:train_gappy_ae:303 - [ep 001] train 0.204899  val 0.061624  best 0.061624
+2025-09-10 16:46:09.350 | INFO     | __main__:train_gappy_ae:303 - [ep 002] train 0.050905  val 0.043263  best 0.043263
+2025-09-10 16:46:10.335 | INFO     | __main__:train_gappy_ae:303 - [ep 003] train 0.036463  val 0.029086  best 0.029086
+2025-09-10 16:46:11.323 | INFO     | __main__:train_gappy_ae:303 - [ep 004] train 0.023596  val 0.017519  best 0.017519
+2025-09-10 16:46:12.313 | INFO     | __main__:train_gappy_ae:303 - [ep 005] train 0.013795  val 0.009817  best 0.009817
+2025-09-10 16:46:13.302 | INFO     | __main__:train_gappy_ae:303 - [ep 006] train 0.007984  val 0.006573  best 0.006573
+2025-09-10 16:46:14.289 | INFO     | __main__:train_gappy_ae:303 - [ep 007] train 0.005416  val 0.004720  best 0.004720
+2025-09-10 16:46:15.273 | INFO     | __main__:train_gappy_ae:303 - [ep 008] train 0.004153  val 0.003716  best 0.003716
+2025-09-10 16:46:16.261 | INFO     | __main__:train_gappy_ae:303 - [ep 009] train 0.003628  val 0.003612  best 0.003612
+2025-09-10 16:46:17.252 | INFO     | __main__:train_gappy_ae:303 - [ep 010] train 0.003127  val 0.003197  best 0.003197
+2025-09-10 16:46:18.253 | INFO     | __main__:train_gappy_ae:303 - [ep 011] train 0.002860  val 0.002918  best 0.002918
+2025-09-10 16:46:19.242 | INFO     | __main__:train_gappy_ae:303 - [ep 012] train 0.002692  val 0.002552  best 0.002552
+2025-09-10 16:46:20.231 | INFO     | __main__:train_gappy_ae:303 - [ep 013] train 0.002549  val 0.002319  best 0.002319
+2025-09-10 16:46:21.222 | INFO     | __main__:train_gappy_ae:303 - [ep 014] train 0.002435  val 0.002272  best 0.002272
+2025-09-10 16:46:22.209 | INFO     | __main__:train_gappy_ae:303 - [ep 015] train 0.002274  val 0.002184  best 0.002184
+2025-09-10 16:46:22.209 | INFO     | __main__:train_gappy_ae:304 - Wall-clock: 14.84s
+2025-09-10 16:46:22.367 | INFO     | __main__:main:606 - λ_FEM=0.0 → PSNR=27.06 dB
+2025-09-10 16:46:22.367 | INFO     | __main__:main:601 - 
+=== λ_FEM=0.0001 ===
+2025-09-10 16:46:23.380 | INFO     | __main__:train_gappy_ae:303 - [ep 001] train 0.303584  val 0.077069  best 0.077069
+2025-09-10 16:46:24.380 | INFO     | __main__:train_gappy_ae:303 - [ep 002] train 0.066880  val 0.056085  best 0.056085
+2025-09-10 16:46:25.381 | INFO     | __main__:train_gappy_ae:303 - [ep 003] train 0.046828  val 0.038709  best 0.038709
+2025-09-10 16:46:26.383 | INFO     | __main__:train_gappy_ae:303 - [ep 004] train 0.031229  val 0.024832  best 0.024832
+2025-09-10 16:46:27.387 | INFO     | __main__:train_gappy_ae:303 - [ep 005] train 0.021071  val 0.018182  best 0.018182
+2025-09-10 16:46:28.395 | INFO     | __main__:train_gappy_ae:303 - [ep 006] train 0.016792  val 0.014920  best 0.014920
+2025-09-10 16:46:29.395 | INFO     | __main__:train_gappy_ae:303 - [ep 007] train 0.014922  val 0.014453  best 0.014453
+2025-09-10 16:46:30.396 | INFO     | __main__:train_gappy_ae:303 - [ep 008] train 0.013880  val 0.013561  best 0.013561
+2025-09-10 16:46:31.401 | INFO     | __main__:train_gappy_ae:303 - [ep 009] train 0.013286  val 0.013051  best 0.013051
+2025-09-10 16:46:32.407 | INFO     | __main__:train_gappy_ae:303 - [ep 010] train 0.013115  val 0.012693  best 0.012693
+2025-09-10 16:46:33.420 | INFO     | __main__:train_gappy_ae:303 - [ep 011] train 0.012649  val 0.012483  best 0.012483
+2025-09-10 16:46:34.427 | INFO     | __main__:train_gappy_ae:303 - [ep 012] train 0.012399  val 0.012342  best 0.012342
+2025-09-10 16:46:35.431 | INFO     | __main__:train_gappy_ae:303 - [ep 013] train 0.012150  val 0.012085  best 0.012085
+2025-09-10 16:46:36.435 | INFO     | __main__:train_gappy_ae:303 - [ep 014] train 0.012119  val 0.011969  best 0.011969
+2025-09-10 16:46:37.439 | INFO     | __main__:train_gappy_ae:303 - [ep 015] train 0.011811  val 0.011711  best 0.011711
+2025-09-10 16:46:37.439 | INFO     | __main__:train_gappy_ae:304 - Wall-clock: 15.07s
+2025-09-10 16:46:37.595 | INFO     | __main__:main:606 - λ_FEM=0.0001 → PSNR=26.42 dB
+2025-09-10 16:46:37.596 | INFO     | __main__:main:601 - 
+=== λ_FEM=0.001 ===
+2025-09-10 16:46:38.609 | INFO     | __main__:train_gappy_ae:303 - [ep 001] train 0.579688  val 0.567977  best 0.567977
+2025-09-10 16:46:39.614 | INFO     | __main__:train_gappy_ae:303 - [ep 002] train 0.437591  val 0.295696  best 0.295696
+2025-09-10 16:46:40.618 | INFO     | __main__:train_gappy_ae:303 - [ep 003] train 0.199554  val 0.140661  best 0.140661
+2025-09-10 16:46:41.619 | INFO     | __main__:train_gappy_ae:303 - [ep 004] train 0.121611  val 0.113495  best 0.113495
+2025-09-10 16:46:42.621 | INFO     | __main__:train_gappy_ae:303 - [ep 005] train 0.108188  val 0.101688  best 0.101688
+2025-09-10 16:46:43.633 | INFO     | __main__:train_gappy_ae:303 - [ep 006] train 0.098276  val 0.093179  best 0.093179
+2025-09-10 16:46:44.634 | INFO     | __main__:train_gappy_ae:303 - [ep 007] train 0.090120  val 0.087791  best 0.087791
+2025-09-10 16:46:45.638 | INFO     | __main__:train_gappy_ae:303 - [ep 008] train 0.085100  val 0.082310  best 0.082310
+2025-09-10 16:46:46.641 | INFO     | __main__:train_gappy_ae:303 - [ep 009] train 0.082232  val 0.080071  best 0.080071
+2025-09-10 16:46:47.644 | INFO     | __main__:train_gappy_ae:303 - [ep 010] train 0.080850  val 0.078311  best 0.078311
+2025-09-10 16:46:48.650 | INFO     | __main__:train_gappy_ae:303 - [ep 011] train 0.079666  val 0.077724  best 0.077724
+2025-09-10 16:46:49.655 | INFO     | __main__:train_gappy_ae:303 - [ep 012] train 0.079628  val 0.084235  best 0.077724
+2025-09-10 16:46:50.661 | INFO     | __main__:train_gappy_ae:303 - [ep 013] train 0.078425  val 0.078103  best 0.077724
+2025-09-10 16:46:51.664 | INFO     | __main__:train_gappy_ae:303 - [ep 014] train 0.078121  val 0.075628  best 0.075628
+2025-09-10 16:46:52.668 | INFO     | __main__:train_gappy_ae:303 - [ep 015] train 0.079046  val 0.079778  best 0.075628
+2025-09-10 16:46:52.668 | INFO     | __main__:train_gappy_ae:304 - Wall-clock: 15.07s
+2025-09-10 16:46:52.822 | INFO     | __main__:main:606 - λ_FEM=0.001 → PSNR=17.97 dB
+2025-09-10 16:46:52.822 | INFO     | __main__:main:601 - 
+=== λ_FEM=0.01 ===
+2025-09-10 16:46:53.835 | INFO     | __main__:train_gappy_ae:303 - [ep 001] train 0.669764  val 0.579581  best 0.579581
+2025-09-10 16:46:54.839 | INFO     | __main__:train_gappy_ae:303 - [ep 002] train 0.571782  val 0.581403  best 0.579581
+2025-09-10 16:46:55.841 | INFO     | __main__:train_gappy_ae:303 - [ep 003] train 0.570241  val 0.573314  best 0.573314
+2025-09-10 16:46:56.843 | INFO     | __main__:train_gappy_ae:303 - [ep 004] train 0.571199  val 0.566868  best 0.566868
+2025-09-10 16:46:57.847 | INFO     | __main__:train_gappy_ae:303 - [ep 005] train 0.569370  val 0.563423  best 0.563423
+2025-09-10 16:46:58.854 | INFO     | __main__:train_gappy_ae:303 - [ep 006] train 0.550144  val 0.535091  best 0.535091
+2025-09-10 16:46:59.858 | INFO     | __main__:train_gappy_ae:303 - [ep 007] train 0.524880  val 0.520629  best 0.520629
+2025-09-10 16:47:00.864 | INFO     | __main__:train_gappy_ae:303 - [ep 008] train 0.519162  val 0.516425  best 0.516425
+2025-09-10 16:47:01.871 | INFO     | __main__:train_gappy_ae:303 - [ep 009] train 0.513760  val 0.512600  best 0.512600
+2025-09-10 16:47:02.875 | INFO     | __main__:train_gappy_ae:303 - [ep 010] train 0.509480  val 0.509276  best 0.509276
+2025-09-10 16:47:03.889 | INFO     | __main__:train_gappy_ae:303 - [ep 011] train 0.506551  val 0.491908  best 0.491908
+2025-09-10 16:47:04.895 | INFO     | __main__:train_gappy_ae:303 - [ep 012] train 0.498800  val 0.490389  best 0.490389
+2025-09-10 16:47:05.904 | INFO     | __main__:train_gappy_ae:303 - [ep 013] train 0.480737  val 0.468123  best 0.468123
+2025-09-10 16:47:06.911 | INFO     | __main__:train_gappy_ae:303 - [ep 014] train 0.460697  val 0.448269  best 0.448269
+2025-09-10 16:47:07.919 | INFO     | __main__:train_gappy_ae:303 - [ep 015] train 0.452974  val 0.448327  best 0.448269
+2025-09-10 16:47:07.919 | INFO     | __main__:train_gappy_ae:304 - Wall-clock: 15.09s
+2025-09-10 16:47:08.074 | INFO     | __main__:main:606 - λ_FEM=0.01 → PSNR=4.43 dB
+2025-09-10 16:47:08.361 | INFO     | __main__:main:608 - Saved FEM ablation plot to outputs/fem_ablation.png

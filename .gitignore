@@ -211,3 +211,8 @@ marimo/_lsp/
 __marimo__/
 
 .gemini/
+
+# Project-specific artifacts
+PyMFEM/
+MFEM_Dataset/
+**/trained_model*

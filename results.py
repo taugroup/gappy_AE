@@ -22,7 +22,7 @@ def plot_surface(ax, x1, x2, y, title, cmap='viridis'):
     ax.set_ylabel("$x_2$")
     ax.set_zlabel("$y$")
 
-def plot_reconstruction_2d(x1, x2, y, obs_idx, y_obs, y_hat, mse, psnr, N, M, sigma, outdir="outputs"):
+def plot_reconstruction_2d(x1, x2, y, obs_idx, y_obs, y_hat, mse, psnr, N, M, sigma, outdir="outputs", filename_suffix=""):
     os.makedirs(outdir, exist_ok=True)
     fig = plt.figure(figsize=(18, 6))
     
@@ -42,7 +42,7 @@ def plot_reconstruction_2d(x1, x2, y, obs_idx, y_obs, y_hat, mse, psnr, N, M, si
     plot_surface(ax3, x1, x2, y_hat, f"VAE Reconstruction (PSNR: {psnr:.2f} dB)")
 
     plt.suptitle(f"Gappy-VAE 2D Reconstruction (N={N}x{N}, M={M}, σ={sigma})")
-    path = os.path.join(outdir, f"gappy_recon_2d_N{N}_M{M}_sigma{sigma}.png")
+    path = os.path.join(outdir, f"gappy_recon_2d_N{N}_M{M}_sigma{sigma}{filename_suffix}.png")
     plt.tight_layout(); plt.savefig(path, dpi=150)
     plt.close()
     return path
@@ -132,5 +132,62 @@ def plot_reconstruction_3d(x1, x2, x3, y, obs_idx, y_obs, y_hat, mse, psnr, N, M
     plt.suptitle(f"Gappy-VAE 3D Reconstruction (N={N}x{N}x{N}, M={M}, σ={sigma})")
     path = os.path.join(outdir, f"gappy_recon_3d_N{N}_M{M}_sigma{sigma}.png")
     plt.tight_layout(); plt.savefig(path, dpi=150)
+    plt.close()
+    return path
+
+
+def plot_flow_reconstruction(
+    grid,
+    y_true,
+    y_obs,
+    y_hat,
+    mask,
+    obs_idx,
+    channel_names,
+    metrics,
+    outdir="outputs",
+    filename_suffix="",
+):
+    os.makedirs(outdir, exist_ok=True)
+    x1, x2 = grid[0], grid[1]
+    extent = (float(x1.min()), float(x1.max()), float(x2.min()), float(x2.max()))
+
+    channel_names = list(channel_names)
+    num_channels = y_true.shape[0]
+    observed = np.where(mask[None, ...] > 0, y_obs, np.nan)
+
+    fig, axes = plt.subplots(num_channels, 3, figsize=(14, 4 * num_channels), squeeze=False)
+
+    xs = x1[obs_idx[:, 0], obs_idx[:, 1]]
+    ys = x2[obs_idx[:, 0], obs_idx[:, 1]]
+
+    for ch in range(num_channels):
+        name = channel_names[ch] if ch < len(channel_names) else f"channel_{ch}"
+        rmse_val = float(metrics["rmse_channels"][ch]) if "rmse_channels" in metrics else float("nan")
+
+        im_truth = axes[ch, 0].imshow(y_true[ch], origin="lower", extent=extent, cmap="viridis")
+        axes[ch, 0].set_title(f"{name} | Truth")
+        fig.colorbar(im_truth, ax=axes[ch, 0], fraction=0.046, pad=0.04)
+
+        im_obs = axes[ch, 1].imshow(observed[ch], origin="lower", extent=extent, cmap="viridis")
+        axes[ch, 1].scatter(xs, ys, c="red", s=15, edgecolors="black", linewidths=0.4)
+        axes[ch, 1].set_title(f"{name} | Sensors")
+        fig.colorbar(im_obs, ax=axes[ch, 1], fraction=0.046, pad=0.04)
+
+        im_hat = axes[ch, 2].imshow(y_hat[ch], origin="lower", extent=extent, cmap="viridis")
+        axes[ch, 2].set_title(f"{name} | Recon (RMSE={rmse_val:.3e})")
+        fig.colorbar(im_hat, ax=axes[ch, 2], fraction=0.046, pad=0.04)
+
+        for ax in axes[ch]:
+            ax.set_xlabel("x")
+            ax.set_ylabel("y")
+
+    fig.suptitle(
+        "Gappy-VAE Flow Reconstruction — "
+        f"Global RMSE {metrics.get('rmse', float('nan')):.3e}, PSNR {metrics.get('psnr_global', float('nan')):.2f} dB"
+    )
+    path = os.path.join(outdir, f"gappy_flow_recon{filename_suffix}.png")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    plt.savefig(path, dpi=150)
     plt.close()
     return path
